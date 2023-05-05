@@ -1,0 +1,46 @@
+body {
+    background-color:tan;
+}
+
+section {
+    padding: 10px;
+}
+
+#buttons {
+    background-color: tan;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navButtons {
+    width: 160px;
+    height: 80px;
+}
+
+.navButtons:hover {
+    background-color: purple;
+    color: white;
+}
+
+#buttons:hover {
+    background-color: white;
+    border: 10px solid purple;
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-image: url('media/summonerRiftMap.png');
+}
+
+#gameButtonContainer {
+    position:absolute;
+    top:40%;
+    right:20%;
+}
+
+.gameButtons{
+    width:200px;
+    padding:10px;
+    color:white;
+    background-color:darkblue;
+}

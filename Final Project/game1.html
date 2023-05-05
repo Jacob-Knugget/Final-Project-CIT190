@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Final Project First Game </title>
+        <link href = "css/game1.css" rel = "stylesheet" type = "text/css">
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+        <div id = "container">
+            <section id = "buttons">
+                <button onclick = "window.location.href = 'finalProject.html';" value="Home Page"> Home </button>
+                <button onclick = "window.location.href = 'game1.html';" value="First Game"> Tabletop Game </button>
+                <button onclick = "window.location.href = 'game2.html';" value="Second Game"> Clones vs Droids </button>
+                <button onclick = "window.location.href = 'game3.html';" value="Third Game"> Garen vs Darius </button>
+                <h1> Tabletop Player! <a href="ReadMe.txt">READ ME</a></h1>
+                <p> Tabletop Player is a simple interactive game that allows you to simulate fantasy rpg combat systems such as: Dungeons & Dragons and Warhammer. Simply drag tokens around the map using your chosen ruleset.</p>
+            </section>
+            <img class = gargToken src="media/dragon.png" style="position:fixed; top:0px; right:0px;">
+            <div id = "characters">
+                <img class = medToken src="media/knight.png"/>       
+                <img class = medToken src="media/ranger.png"/>
+                <img class = medToken src="media/cleric.png"/>
+                <img class = medToken src="media/eldKnight.png"/>
+                <img class = medToken src="media/druid.png"/>
+                <img class = medToken src="media/sorcerer.png"/>
+                <img class = medToken src="media/aArcher.png"/>
+                <img class = medToken src="media/bard.png"/>
+                <img class = medToken src="media/blKnight.png"/>
+                <img class = medToken src="media/fBard.png"/>
+                <img class = medToken src="media/hArcher.png"/>
+                <img class = medToken src="media/hWizard.png"/>
+                <img class = medToken src="media/mRogue.png"/>
+                <img class = medToken src="media/rogue.png"/>
+                <img class = medToken src="media/guard.png"/>
+            </div>
+            <div id = "monsters">
+                <img class = largeToken src="media/ogre.png">
+                <img class = medToken src="media/goblin.png"/>
+                <img class = medToken src="media/goblin.png"/>
+                <img class = medToken src="media/goblin.png"/>
+                <img class = medToken src="media/goblin.png"/>
+                <img class = medToken src="media/goblin.png"/>
+                <img class = medToken src="media/goblin.png"/>
+                <img class = medToken src="media/kobold.png"/>
+                <img class = medToken src="media/kobold.png"/>
+                <img class = medToken src="media/kobold.png"/>
+                <img class = medToken src="media/kobold.png"/>
+                <img class = medToken src="media/kobold.png"/>
+            </div>
+        </div>
+        <script src ="js/game1.js"></script>
+    </body>
+    <!-- The intended audience is targeted towards people who enjoy more technical games. Nothing flashy and simple things that me and others like me would find interesting. -->
+    <!-- I wanted to keep the layout of my page simple which was very messy at first, but I added some hover effects that make it more pleasing. -->
+    <!-- Choosing colors took me a while because I wanted just a white background at first. I feel that the tan background fits better and allows me to use the colors I intended without making the most hideous thing imaginable. It also keeps the very simple and basic feel that I was going for. -->
+</html>
